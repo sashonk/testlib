@@ -17,7 +17,7 @@
 
   <scm>
     <connection>scm:git:https://github.com/sashonk/testlib.git</connection>
-    <tag>testlib-1.0</tag>
+    <tag>NewYear_2023</tag>
   </scm>
   <build>
     <plugins>
