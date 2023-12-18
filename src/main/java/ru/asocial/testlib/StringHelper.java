@@ -10,6 +10,10 @@ public class StringHelper implements IStringHelper{
             throw new NullPointerException("startsWith is null");
         }
 
+        if (input.isEmpty()) {
+            throw new IllegalArgumentException("empty strings are not allowed");
+        }
+
         return input.startsWith(startsWith);
     }
 }
