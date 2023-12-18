@@ -11,12 +11,12 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <git.user>sashonk</git.user>
-    <git.token>xxxxxx</git.token>
+    <g.user>sashonk</g.user>
+    <g.token>xxxxxx</g.token>
   </properties>
 
   <scm>
-    <connection>scm:git:https://${git.user}:${git.token}@github.com/sashonk/testlib.git</connection>
+    <connection>scm:git:https://${g.user}:${g.token}@github.com/sashonk/testlib.git</connection>
     <tag>testlib-1.0</tag>
   </scm>
   <build>
