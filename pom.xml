@@ -28,7 +28,6 @@
         <configuration>
           <username>{$github.user}</username>
           <password>${github.token}</password>
-          <updateVersionsToSnapshot>false</updateVersionsToSnapshot>
         </configuration>
       </plugin>
     </plugins>
