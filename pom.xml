@@ -27,7 +27,7 @@
         <version>3.0.1</version>
         <configuration>
           <username>sashonk</username>
-          <password>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</password>
+          <password>${g.token}</password>
         </configuration>
       </plugin>
     </plugins>
