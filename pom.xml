@@ -11,8 +11,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <github.user>sashonk</github.user>
-    <github.token>xxxxxx</github.token>
+    <github.user>user</github.user>
+    <github.password>password</github.password>
   </properties>
 
   <scm>
@@ -27,7 +27,7 @@
         <version>3.0.1</version>
         <configuration>
           <username>{$github.user}</username>
-          <password>${github.token}</password>
+          <password>${github.password}</password>
         </configuration>
       </plugin>
     </plugins>
