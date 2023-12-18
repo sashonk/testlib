@@ -11,8 +11,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <g.user>sashonk</g.user>
-    <g.token>xxxxxx</g.token>
+    <github.user>sashonk</github.user>
+    <github.token>xxxxxx</github.token>
   </properties>
 
   <scm>
@@ -26,8 +26,8 @@
         <artifactId>maven-release-plugin</artifactId>
         <version>3.0.1</version>
         <configuration>
-          <username>sashonk</username>
-          <password>${g.token}</password>
+          <username>{$github.user}</username>
+          <password>${github.token}</password>
         </configuration>
       </plugin>
     </plugins>
