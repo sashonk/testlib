@@ -14,11 +14,19 @@
     <github.user>user</github.user>
     <github.password>password</github.password>
   </properties>
-
   <scm>
     <connection>scm:git:https://github.com/sashonk/testlib.git</connection>
     <tag>1.0.0</tag>
   </scm>
+
+  <dependencies>
+    <dependency>
+      <groupId>ru.asocial</groupId>
+      <artifactId>lib2</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+
   <build>
     <plugins>
       <plugin>
