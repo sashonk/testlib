@@ -3,7 +3,7 @@
 
   <groupId>ru.asocial</groupId>
   <artifactId>testlib</artifactId>
-  <version>2355</version>
+  <version>2357-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>testlib</name>
@@ -16,7 +16,7 @@
   </properties>
   <scm>
     <connection>scm:git:https://github.com/sashonk/testlib.git</connection>
-    <tag>2355</tag>
+    <tag>1.0.0</tag>
   </scm>
 
   <dependencies>
