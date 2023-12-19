@@ -19,6 +19,8 @@ public class StringHelper implements IStringHelper{
         Library lib = new Library();
         lib.foo();
 
+        lib.something();
+
         return input.startsWith(startsWith);
     }
 }
